@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*
  rgb(164, 172, 164)
@@ -8,14 +8,15 @@ rgb(199, 175, 151) primero
 
 body{
     background-color:    rgb(199, 175, 151);
+  
 }
 
 /* #888889
  rgb(190, 187, 187); priemro
- #582420 
+  
 */
 .bg-navv{
-    background-color:  #888889 ;
+    background-color: #888889 ;
     opacity: 80%;
 }
 
