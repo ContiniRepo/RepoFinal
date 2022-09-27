@@ -8,6 +8,7 @@ rgb(199, 175, 151) primero
 
 body{
     background-color:    rgb(199, 175, 151);
+    font-family: 'Roboto', sans-serif
   
 }
 
@@ -40,6 +41,8 @@ h1{
     justify-content: center;
     margin: 30px 0;
 }
+
+
 
 #igrid{
     display: grid;
