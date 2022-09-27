@@ -34,6 +34,7 @@ body{
 }
 .img-principal{
     height: 32rem;
+    width: 100%;
 }
 
 h1{
@@ -110,6 +111,14 @@ div h2{
     font-size: 30px;
 
 }
+
+.serv-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 main form div{
     transform: translate(30px, 0px);
