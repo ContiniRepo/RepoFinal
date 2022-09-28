@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: rgb(199, 175, 151);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 50px 0;
+}
+
+.img-principal {
+  width: 100%;
+  height: 32rem;
+}
+
+.bg-navv {
+  background-color: #888889;
+  opacity: 80%;
+}
+
+#botonera img {
+  width: 90px;
+  height: 90px;
+  border-radius: 70%;
+}
+#botonera ul li a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-bg-b {
+  background-color: rgb(199, 175, 151);
+  border: none;
+}
+
+div h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.sm-p-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin: 50px 0;
+}
+
+.sm-p-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30px;
+}
+
+.serv-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 50px 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#btn-form {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: #888889;
+  border: none;
+  border-radius: 7px;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#igrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "girl" "firstp" "boy" "secondp";
+}
+
+.img-uno {
+  grid-area: girl;
+}
+
+.p-uno {
+  grid-area: firstp;
+}
+
+.img-dos {
+  grid-area: boy;
+}
+
+.p-dos {
+  grid-area: secondp;
+}
+
+#igrid p {
+  padding-top: 100px;
+  margin: auto 50px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+#igrid img {
+  width: 320px;
+  height: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+@media (min-width: 1024px) {
+  #igrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 50px 50px;
+    grid-template-areas: "girl firstp" "secondp boy";
+  }
+  #botonera ul li a {
+    padding: 0 40px;
+  }
+}
+.pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #888889;
+}
+
+.pie__a {
+  margin: auto;
+  padding: auto;
+}
+
+.pie__a--md {
+  width: 50px;
+}/*# sourceMappingURL=main.css.map */

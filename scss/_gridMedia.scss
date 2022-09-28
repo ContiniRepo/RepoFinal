@@ -1,0 +1,48 @@
+#igrid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "girl" 
+    "firstp" 
+    "boy" 
+    "secondp";
+}
+.img-uno{
+    grid-area: girl;
+}
+.p-uno{
+    grid-area: firstp;
+}
+.img-dos{
+    grid-area: boy;
+}
+.p-dos{
+    grid-area: secondp;
+}
+#igrid p{
+    padding-top: 100px;
+    margin: auto 50px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#igrid img{
+    width: 320px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+}
+@media (min-width: 1024px){
+    #igrid{
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-areas: 50px 50px;
+        grid-template-areas: 
+        "girl firstp" 
+        "secondp boy";
+    }
+
+    #botonera ul li a{
+        padding: 0 40px;
+    }
+}

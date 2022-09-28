@@ -1,0 +1,17 @@
+@mixin clasic ($flex, $jcc, $aic) {
+    display: $flex;
+    justify-content: $jcc;
+    align-items: $aic;
+}
+
+.pie{
+    @include clasic(flex, center, center);
+    background-color: map-get($map: $bg, $key:"cuatro");
+}
+.pie__a{
+    margin: auto;
+    padding: auto;
+}
+.pie__a--md{
+    width: 50px;
+}

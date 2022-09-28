@@ -1,0 +1,65 @@
+@mixin clasic ($flex, $jcc, $aic) {
+    display: $flex;
+    justify-content: $jcc;
+    align-items: $aic;
+}
+
+.card-bg-b{
+    background-color: map-get($map: $bg, $key: "uno");
+    border: none;
+}
+
+div h2{
+    @include clasic(flex, center, center);
+    font-size: 40px;
+    margin-top: 30px;
+}
+.sm-p-1{
+    @include clasic(flex, center, center);
+    font-size: 35px;
+    margin: 50px 0;
+}
+
+.sm-p-2{
+    @include clasic(flex, flex-start, center);
+    font-size: 30px;
+}
+.serv-p{
+    @include clasic(flex, center, center);
+}
+form{
+    width: 450px;
+    margin: auto;
+    background-color: map-get($map: $bg, $key: "seis");
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#btn-form{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: map-get($map: $bg, $key: "cuatro");
+    border: none;
+    border-radius: 7px;
+}
+
+.iframe{
+    @include clasic(flex, center, center);
+}
+

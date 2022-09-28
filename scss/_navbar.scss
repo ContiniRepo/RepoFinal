@@ -1,0 +1,20 @@
+.bg-navv{
+    background-color: map-get($map: $bg, $key: 'cuatro');
+    opacity: 80%;
+}
+
+#botonera{
+    img{
+        width: 90px;
+        height: 90px;
+        border-radius: 70%;
+    }
+    ul{
+        li{
+            a{
+                font-size: 20px;
+                font-weight: $textBold
+            }
+        }
+    }
+}
