@@ -13,12 +13,20 @@ $bg: (
 $textBold: 600;
 $textfino: 200;
 
+//var font 
+$fontMo: 'Montserrat', sans-serif;
+$fontPr: 'Prompt', sans-serif;
+$fontAb: 'ABeeZee', sans-serif;
+
+
 //font
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
 
 body{
     background-color: map-get($map: $bg, $key: 'uno');
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontMo
 }
 
 h1{

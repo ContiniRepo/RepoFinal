@@ -7,26 +7,42 @@
 .card-bg-b{
     background-color: map-get($map: $bg, $key: "uno");
     border: none;
+
+}
+.serv-trans-img{
+    border-radius: 1%;
+    &:hover{
+        transform: scale(0.89, 0.89);
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
 }
 
 div h2{
     @include clasic(flex, center, center);
-    font-size: 40px;
+    font-size: 38px;
     margin-top: 30px;
 }
 .sm-p-1{
     @include clasic(flex, center, center);
     font-size: 35px;
     margin: 50px 0;
+    font-family: $fontAb
 }
 
 .sm-p-2{
-    @include clasic(flex, flex-start, center);
+    @include clasic(flex, center, center);
     font-size: 30px;
+    
 }
 .serv-p{
     @include clasic(flex, center, center);
 }
+.sm-ul{
+    list-style: none;
+}
+
+
 form{
     width: 450px;
     margin: auto;
@@ -62,4 +78,3 @@ textarea{
 .iframe{
     @include clasic(flex, center, center);
 }
-

@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap");
 body {
   background-color: rgb(199, 175, 151);
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -35,11 +37,20 @@ h1 {
   border: none;
 }
 
+.serv-trans-img {
+  border-radius: 1%;
+}
+.serv-trans-img:hover {
+  transform: scale(0.89, 0.89);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
 div h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 38px;
   margin-top: 30px;
 }
 
@@ -49,11 +60,12 @@ div h2 {
   align-items: center;
   font-size: 35px;
   margin: 50px 0;
+  font-family: "ABeeZee", sans-serif;
 }
 
 .sm-p-2 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   font-size: 30px;
 }
@@ -62,6 +74,10 @@ div h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sm-ul {
+  list-style: none;
 }
 
 form {
@@ -164,5 +180,7 @@ textarea {
 }
 
 .pie__a--md {
-  width: 50px;
+  width: 35px;
+  box-sizing: border-box;
+  margin: 0 10px;
 }/*# sourceMappingURL=main.css.map */
