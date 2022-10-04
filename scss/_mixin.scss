@@ -23,6 +23,11 @@ div h2{
     font-size: 38px;
     margin-top: 30px;
 }
+
+.border-rodri{
+    border-radius: 50%;
+    
+}
 .sm-p-1{
     @include clasic(flex, center, center);
     font-size: 35px;
