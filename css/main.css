@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
 body {
   background-color: rgb(199, 175, 151);
   font-family: "Montserrat", sans-serif;
@@ -131,6 +132,46 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#error-bo {
+  background-image: url("/img/gal-indoor-3.jpg");
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  background-blend-mode: soft-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error-tx {
+  color: white;
+  margin-top: 250px;
+}
+.error-tx h1 {
+  font-family: "Londrina Outline", cursive;
+  font-size: 80px;
+}
+.error-tx h2 {
+  font-size: 30px;
+}
+
+.btn-error {
+  margin-top: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: #888889;
+  border: none;
+  border-radius: 7px;
+}
+.btn-error a {
+  text-decoration: none;
+  color: white;
+}
+.btn-error a:hover {
+  color: black;
 }
 
 #igrid {
